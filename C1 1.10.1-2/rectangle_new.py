@@ -9,5 +9,5 @@ class Rectangle:
         return f'x: {self.x} \ny: {self.y} \nwidth: {self.width} \nheight {self.height}'
 
 
-figure = Rectangle(10, 10, 40, 70)
+figure = Rectangle(5, 10, 50, 100)
 print(figure)
