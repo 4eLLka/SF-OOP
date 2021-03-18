@@ -1,0 +1,13 @@
+class Square:
+    def __init__(self, side):
+        self.side = side
+
+
+class SquareFactory:
+    @staticmethod
+    def square(side):
+        return Square(side)
+
+
+x = SquareFactory.square(5)
+print(x.side)
